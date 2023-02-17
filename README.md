@@ -1,4 +1,4 @@
-## Packages Used to Implement Component in React 16.8.0
+## Packages Used to Implement Component in React 16.8.6
 
 1. create-react-app
     - delete:
@@ -13,10 +13,9 @@
 5. npm install @material-ui/system
 6. npm i react-spring@8.0.27
 
-## Searchable Comment Terms
+## VS Code Globally Searchable Comment Terms
 
 - DEVNOTE:
-- DEVGUIDE:
 - TODO:
 
 ## Console Warning: findDOMNode ...
