@@ -58,18 +58,19 @@ TransitionComponent.propTypes = {
 // DEVNOTE: No styles applied, no functionality applied, this just checks and unchecks
 const StyledCheckbox = styled((props) => <Checkbox {...props} />)``;
 
+// DEVNOTE: .MuiTreeItem-group 'border-left color' is set to white, since my repo just uses basic react style
 const StyledTreeItem = styled((props) => (
   <TreeItem {...props} TransitionComponent={TransitionComponent} />
 ))`
-  & .iconContainer: {
-    & .close: {
+  & .MuiTreeItem-iconContainer {
+    & .close {
       opacity: 0.3;
     };
   };
-  & .group: {
-    margin-left: 7;
-    padding-left: 18;
-    border-left: 1px dashed hsl(100%,100%,100%, 0.4);
+  & .MuiTreeItem-group {
+    margin-left: 7px;
+    padding-left: 18px;
+    border-left: 1px dashed rgba(255, 255, 255, 0.4);
   };
 `;
 
@@ -84,7 +85,7 @@ const StyledTreeView = styled((props) => (
     {props.data.map(a=> renderTree(a))}
   </TreeView>
 ))`
-  flexGrow: 1;
+  flex-grow: 1;
 `;
 
 StyledTreeView.propTypes = {
