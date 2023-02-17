@@ -21,7 +21,7 @@
 
 ## Console Warning: findDOMNode ...
 
-After researching, it looks like this only matters in StrictMode and will not be problematic in production.  [GitHub issues suggest disabling StrictMode]()
+After light researching, I think this only matters in StrictMode and will not be problematic in production.  [GitHub issues suggest disabling StrictMode or using 'unstable_createMuiStrictModeTheme'](https://github.com/mui/material-ui/issues/13394#issuecomment-885308801)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
