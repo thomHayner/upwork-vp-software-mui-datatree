@@ -1,0 +1,36 @@
+{
+  "data": [
+      {
+      "label": "Channel 1 Parent",
+      "id": "1234",
+      "channels":[
+              {
+                  "label":"Channel 1 Child",
+                  "id":"123",
+                  "channels":[
+                  
+                  ]
+              },
+              {
+                  "label":"Channel 2 Child",
+                  "id":"456",
+                  "channels":[
+                  
+                  ]
+              },
+              {
+                  "label":"Channel 3 Child",
+                  "id":"789",
+                  "channels":[
+                  
+                  ]
+              }
+          ]
+      },
+      {
+          "label":"Channel 2 Parent",
+          "id":"12345",
+          "channels":[]
+      }
+  ]
+}
